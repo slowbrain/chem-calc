@@ -1,0 +1,36 @@
+2+2
+(2 * (30  / 4)- 7) % 2
+(2.5 * (3.25  - 4)- 7) + 2.1
+"string" + 2
+2 == "2"
+2 != "2"
+3>   2
+2 >=2
+4   <    (2 + 5)
+7 - 3 <= 4
+true or 2
+false and "3"
+true Xor false
+sum(2)
+avg(3)
+count(3)
+max(4)
+min(3)
+bag(1)
+bag(2, 3)
+sum(bag(2,3))
+struct(1)
+struct(1,2)
+struct(1,2,3)
+bag(1,2) where true
+(1, 2).("Ala")
+not true
+1 union 2
+unique(bag(1, 2, 1))
+bag(1, 2, 3) minus bag(2, 3)
+(1, 2) in (2, 3)
+1 join 2
+struct(1, 2) intersect struct(2, 3)
+bag(1, 2, 3) intersect bag(2, 3)
+all 1 true
+any 1 true
