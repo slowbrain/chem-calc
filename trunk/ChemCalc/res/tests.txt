@@ -1,0 +1,115 @@
+all 1 true
+true and false
+false and true and 1
+any 1 true
+bag(1)
+bag(1, 2, 3)
+bag(1+2,3)
+bag(bag(1,2,3))
+(1, 2)
+(bag(1, 2), 3)
+(bag(1, 2), bag(3, 4))
+10 / 5
+5 / 3.50
+3.50 / 5
+3.50 / 5.50
+(1, 2).("Ala")
+bag(1, 2).("Ala")
+1 == 2
+1 == true
+5 == "5"
+5.50 == 5
+1 > 1
+3 > 2.99
+24.35 >= 24.34
+bag(1, 2, 3) intersect bag(2, 3)
+1 intersect 1
+(1, 2) intersect (2, 3)
+bag(1, 2) intersect bag(1, 2)
+bag("ala", 2, 3) intersect bag(2, 3.40)
+1 join 2
+1 <= 1
+24.34 <= 24.35
+2.99 <= 3
+1 < 1
+24.34 < 24.35
+2.99 < 3
+max(1)
+max(bag(1, 3.35, 3))
+min(1)
+min(bag(1.01, 2.35, 3))
+10 - 5
+5 - 3.50
+3.50 - 5
+3.50 - 5.50
+10 % 5
+5 % 3.50
+3.50 % 5
+3.50 % 5.50
+10 * 5
+5 * 3.50
+3.50 * 5
+3.50 * 5.50
+true or false
+true or false or 1
+10 + 5
+5 + 3.50
+3.50 + 5
+3.50 + 5.50
+3 + "Ala"
+3.50 + "Ala"
+"Ala" + 3.7
+true + "Ala"
+struct(1)
+struct(1, 2, 3)
+struct(1 + 2, 3)
+struct(struct(1,2,3))
+1 union 2
+bag(1,2) union bag(3,4)
+(1, 2) union (3, 4)
+unique(bag(1, 2, 1))
+unique(bag(1.01, 2, 1.01, "ala"))
+bag(1,2) where true
+sum(1)
+sum(bag(1.01, 2.35, 3))
+count(1)
+count(bag(1.01, 2.35, 3))
+count(1.01, 2.35, 3)
+not true
+not false
+true xor false
+true xor true
+false xor true
+bag(2, 3) in bag(1, 2, 3)
+1 in 1
+bag(1, 2) in bag(2, 3)
+bag(1, 2) in bag(1, 2)
+bag(1) minus bag(1.0)
+bag(1, 2, 3) minus bag(2, 3)
+1 minus 1
+1 minus 1
+(1, 2) minus (2, 3)
+bag(1, 2) minus bag(2, 3)
+(1, 2) minus (1, 2)
+bag(1, 2) minus bag(1, 2)
+bag(2, 3.40) minus bag("ala", 2, 3)
+bag("ala", 2, 3) minus bag(2, 3.40)
+(1, 2) in (2, 3)
+(1, 2) in (1, 2)
+struct(1, 2) intersect struct(2, 3)
+struct(1, 2) intersect struct(1, 2)
+1 >= 1
+3 >= 2.99
+3.50 - 3.50
+(bag(1, 2) minus bag(1, 2)) minus (bag(1, 2) minus bag(1, 2))
+(bag(1, 3) minus bag(1, 4)) minus (bag(1, 3) minus bag(1, 2))
+(bag(1 < 3) minus bag(1 <= 4)) minus (bag(1, 3) minus bag(1, 2))
+(bag(1 < 3) minus bag(1 <= 4)) union (bag(1 < 3) minus bag(2 <= 1))
+empty(1)
+empty(bag(1.01, 2.35, 3))
+empty (1 where false)
+true nand false
+false nand true
+false nand false
+true nand true
+false Nand "3"
