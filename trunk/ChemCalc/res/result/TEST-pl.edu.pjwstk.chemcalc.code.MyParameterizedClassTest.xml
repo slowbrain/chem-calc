@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Adi-Com" name="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" tests="3" time="0.057" timestamp="2014-01-26T17:07:36">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="lib.dir" value="C:\dev\workspace\ChemCalc\war\WEB-INF\lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/F:/Progz/Programming/Java/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="docs.dir" value="C:\dev\workspace\ChemCalc\war\docs\javadoc" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_45\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030" />
+    <property name="java.runtime.version" value="1.7.0_45-b18" />
+    <property name="res.dir" value="C:\dev\workspace\ChemCalc\res" />
+    <property name="user.name" value="Adi" />
+    <property name="ant.file.chem-calc" value="C:\dev\workspace\ChemCalc\build.xml" />
+    <property name="build.dir" value="C:\dev\workspace\ChemCalc\war\WEB-INF\classes" />
+    <property name="user.language" value="pl" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\bin" />
+    <property name="ant.project.default-target" value="document" />
+    <property name="ant.project.name" value="chem-calc" />
+    <property name="java.version" value="1.7.0_45" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1250" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="PL" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_45\jre" />
+    <property name="ant.file.type.chem-calc" value="file" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\dev\workspace\ChemCalc\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.45-b08" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/F:/Progz/Programming/Java/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/scripts/" />
+    <property name="user.home" value="C:\Users\Adi" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="CLASSPATH" value="C:\dev\workspace\ChemCalc\war\WEB-INF\lib/JFlex.jar;                C:\dev\workspace\ChemCalc\war\WEB-INF\lib/java-cup-0.11a.jar;" />
+    <property name="test.dir" value="C:\dev\workspace\ChemCalc\test" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.7.0_45/jre/bin/server;C:/Program Files/Java/jdk1.7.0_45/jre/bin;C:/Program Files/Java/jdk1.7.0_45/jre/lib/amd64;C:\Program Files (x86)\HP SimplePass\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\Java\jdk1.7.0_45\bin;C:\dev\apache-tomcat-7.0.42\bin;C:\MinGW\bin;C:\GnuWin32\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\dev\apache-maven-3.1.1\bin;C:\dev\apache-ant-1.9.3\bin;C:\Git\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\Progz\Programming\Java\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\dev\workspace\ChemCalc\res\result\TEST-pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\dev\workspace\ChemCalc\res\result\TEST-pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest.xml crashfile=C:\dev\workspace\ChemCalc\junitvmwatcher8703426716972151715.properties propsfile=C:\dev\workspace\ChemCalc\junit5441021114246890278.properties" />
+    <property name="java.class.path" value="C:\dev\workspace\ChemCalc\war\WEB-INF\lib\junit-4.11.jar;C:\dev\workspace\ChemCalc\war\WEB-INF\lib\hamcrest-core-1.3.jar;C:\dev\workspace\ChemCalc\war\WEB-INF\classes;F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-launcher.jar;F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant.jar;F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-junit.jar;F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="eclipse.pdebuild.home" value="/F:/Progz/Programming/Java/eclipse/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/./" />
+    <property name="java.io.tmpdir" value="C:\Users\Adi\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\dev\workspace\ChemCalc" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="result.dir" value="C:\dev\workspace\ChemCalc\res\result" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\dev\workspace\ChemCalc" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1250" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="src.dir" value="C:\dev\workspace\ChemCalc\src" />
+    <property name="ant.project.invoked-targets" value="document" />
+  </properties>
+  <testcase classname="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" name="testMultiplyException[0]" time="0.002" />
+  <testcase classname="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" name="testMultiplyException[1]" time="0.001" />
+  <testcase classname="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" name="testMultiplyException[2]" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
