@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Adi-Com" name="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" tests="3" time="0.057" timestamp="2014-01-26T17:07:36">
+<testsuite errors="0" failures="0" hostname="Adi-Com" name="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" tests="3" time="0.056" timestamp="2014-02-09T20:34:28">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="C:\dev\workspace\ChemCalc\war\WEB-INF\lib" />
@@ -54,7 +54,7 @@
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\dev\workspace\ChemCalc\res\result\TEST-pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\dev\workspace\ChemCalc\res\result\TEST-pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest.xml crashfile=C:\dev\workspace\ChemCalc\junitvmwatcher8703426716972151715.properties propsfile=C:\dev\workspace\ChemCalc\junit5441021114246890278.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,C:\dev\workspace\ChemCalc\res\result\TEST-pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\dev\workspace\ChemCalc\res\result\TEST-pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest.xml crashfile=C:\dev\workspace\ChemCalc\junitvmwatcher8207105661055740603.properties propsfile=C:\dev\workspace\ChemCalc\junit5558772371876239980.properties" />
     <property name="java.class.path" value="C:\dev\workspace\ChemCalc\war\WEB-INF\lib\junit-4.11.jar;C:\dev\workspace\ChemCalc\war\WEB-INF\lib\hamcrest-core-1.3.jar;C:\dev\workspace\ChemCalc\war\WEB-INF\classes;F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-launcher.jar;F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant.jar;F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-junit.jar;F:\Progz\Programming\Java\eclipse\plugins\org.apache.ant_1.8.4.v201303080030\lib\ant-junit4.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -80,8 +80,8 @@
     <property name="ant.project.invoked-targets" value="document" />
   </properties>
   <testcase classname="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" name="testMultiplyException[0]" time="0.002" />
-  <testcase classname="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" name="testMultiplyException[1]" time="0.001" />
-  <testcase classname="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" name="testMultiplyException[2]" time="0.001" />
+  <testcase classname="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" name="testMultiplyException[1]" time="0.0" />
+  <testcase classname="pl.edu.pjwstk.chemcalc.code.MyParameterizedClassTest" name="testMultiplyException[2]" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

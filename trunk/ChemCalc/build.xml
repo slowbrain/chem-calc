@@ -7,7 +7,9 @@
 	<property name="build.dir" location="./war/WEB-INF/classes" />
 	<property name="docs.dir" location="./war/docs/javadoc" />
 	<property name="lib.dir" location="./war/WEB-INF/lib" />
-	<property name="CLASSPATH" value="${lib.dir}/JFlex.jar;
+
+	<property name="CLASSPATH"
+		value="${lib.dir}/JFlex.jar;
                ${lib.dir}/java-cup-0.11a.jar;" />
 
 	<path id="project.classpath">
@@ -25,9 +27,12 @@
 		<pathelement location="${build.dir}" />
 	</path>
 
-	<taskdef name="jflex" classname="JFlex.anttask.JFlexTask" classpath="${CLASSPATH}" />
-	<taskdef name="cup" classname="java_cup.anttask.CUPTask" classpath="${CLASSPATH}" />
-	<taskdef name="myjunit" classname="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask">
+	<taskdef name="jflex" classname="JFlex.anttask.JFlexTask"
+		classpath="${CLASSPATH}" />
+	<taskdef name="cup" classname="java_cup.anttask.CUPTask"
+		classpath="${CLASSPATH}" />
+	<taskdef name="myjunit"
+		classname="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask">
 	</taskdef>
 
 	<!-- Deletes the existing docs directory -->
@@ -45,19 +50,24 @@
 	<!-- Generates the lexer and parser -->
 	<target name="generate" depends="clean, makedir">
 		<jflex destdir="./src" file="res/lexer.lex" nobak="true" />
-		<cup destdir="./src" interface="true" symbols="Symbols" package="pl.edu.pjwstk.chemcalc.parser" parser="ChemcalcParser" srcfile="res/parser.cup" />
+		<cup destdir="./src" interface="true" symbols="Symbols"
+			package="pl.edu.pjwstk.chemcalc.parser" parser="ChemcalcParser"
+			srcfile="res/parser.cup" />
 	</target>
 
 	<!-- Compile the project -->
-	<target name="compile" depends="generate" description="Compiles Java source and copies other source files to the WAR.">
+	<target name="compile" depends="generate"
+		description="Compiles Java source and copies other source files to the WAR.">
 		<mkdir dir="war/WEB-INF/classes" />
 		<copy todir="war/WEB-INF/classes">
 			<fileset dir="src">
 				<exclude name="**/*.java" />
 			</fileset>
 		</copy>
-		<javac srcdir="src" includeantruntime="false" destdir="war/WEB-INF/classes" classpathref="project.classpath" debug="on" />
-		<javac srcdir="test" includeantruntime="false" destdir="war/WEB-INF/classes" classpathref="project.classpath" debug="on" />
+		<javac srcdir="src" includeantruntime="false" destdir="war/WEB-INF/classes"
+			classpathref="project.classpath" debug="on" />
+		<javac srcdir="test" includeantruntime="false" destdir="war/WEB-INF/classes"
+			classpathref="project.classpath" debug="on" />
 	</target>
 
 	<target name="test" depends="compile">

@@ -1,12 +1,12 @@
 package pl.edu.pjwstk.chemcalc.code;
 
-import static org.junit.Assert.assertEquals;
+import junit.framework.TestCase;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class MyMultTest {
+public class MyMultTest extends TestCase {
 
     @BeforeClass
     public static void testSetup() {
@@ -20,12 +20,12 @@ public class MyMultTest {
     @Test(expected = IllegalArgumentException.class)
     public void testExceptionIsThrown() {
         MyMult tester = new MyMult();
-        tester.multiply(1000, 5);
+        tester.multiply(100, 7);
     }
 
     @Test
     public void testMultiply() {
         MyMult tester = new MyMult();
-        assertEquals("10 x 5 must be 50", 50, tester.multiply(10, 5));
+        assertEquals("100 x 7 must be 700", 700, tester.multiply(100, 7));
     }
 }
